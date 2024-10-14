@@ -33,7 +33,15 @@ namespace Tyuiu.KovyazinAA.Sprint2.Task1.V19
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.GetLogicOperations(a, b, c, d));
-            
+            int x = 12, g = 4;
+
+            int y = 7;
+
+            if (x > 3 * g) y++;
+
+            else y += x - 2 * g;
+
+            Console.WriteLine(y);
         }
     }
 }
