@@ -32,6 +32,7 @@ namespace Tyuiu.KovyazinAA.Sprint2.Task2.V25
                 Console.WriteLine("Точка находится в заштрихованной области");
             else
                 Console.WriteLine("Точка не находится в заштрихованной области");
+
         }
     }
 }

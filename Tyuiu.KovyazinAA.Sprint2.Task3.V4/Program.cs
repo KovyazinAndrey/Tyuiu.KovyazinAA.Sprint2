@@ -1,5 +1,5 @@
-﻿using Tyuiu.KovyazinAA.Sprint2.Task1.V19.Lib;
-namespace Tyuiu.KovyazinAA.Sprint2.Task1.V19
+﻿using Tyuiu.KovyazinAA.Sprint2.Task3.V4.Lib;
+namespace Tyuiu.KovyazinAA.Sprint2.Task3.V4
 {
     internal class Program
     {
@@ -9,30 +9,24 @@ namespace Tyuiu.KovyazinAA.Sprint2.Task1.V19
             Console.Title = "Спринт #2 | Выполнил: Ковязин А. А. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Логические операции                                               *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #19                                                             *");
+            Console.WriteLine("* Тема: Вложенные операторы If - else                                     *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #4                                                              *");
             Console.WriteLine("* Выполнил: Ковязин Андрей Александрович | ПКТб-24-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу из операций сравнений и логических операций, а также *");
-            Console.WriteLine("* арифметических выражений, которая вернет логическую последовательность  *");
-            Console.WriteLine("* (массив): (True, False, True, False, True, False)                       *");
+            Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y      *");
+            Console.WriteLine("* с использованием вложенных оператор if-else, где пользователь вводит    *");
+            Console.WriteLine("* значение переменной X с клавиатуры.                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* A = 696                                                                 *");
-            int a = 696;
-            Console.WriteLine("* B = 354                                                                 *");
-            int b = 354;
-            Console.WriteLine("* C = 423                                                                 *");
-            int c = 423;
-            Console.WriteLine("* D = 957                                                                 *");
-            int d = 957;
+            Console.WriteLine("* Введите Х:                                                              *");
+            int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.GetLogicOperations(a, b, c, d));
+            Console.WriteLine(ds.Calculate(x));
         }
     }
 }
