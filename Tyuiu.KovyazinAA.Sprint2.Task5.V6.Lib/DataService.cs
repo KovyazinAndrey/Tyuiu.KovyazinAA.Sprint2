@@ -10,16 +10,16 @@ namespace Tyuiu.KovyazinAA.Sprint2.Task5.V6.Lib
             switch (value1)
             {
                 case 1:
-                    name = "пики";
+                    name = "пик";
                     break;
                 case 2:
-                    name = "трефы";
+                    name = "треф";
                     break;
                 case 3:
-                    name = "бубны";
+                    name = "бубен";
                     break;
                 case 4:
-                    name = "червы";
+                    name = "черв";
                     break;
                 default:
                     throw new NotImplementedException($"Номер должен быть от 1 до 4. Значение {value1}");
