@@ -61,8 +61,25 @@ namespace Tyuiu.KovyazinAA.Sprint2.Task6.V11.Lib
                 m = V;
                 g += V;
             }
-            
-            string res = n+"."+m+"."+g;
+            string num = "";
+            if (n<=9)
+            {
+                num = "0" + n;
+            }
+            else
+            {
+                num = Convert.ToString(n);
+            }
+            string mon = "";
+            if (m<=9)
+            {
+                mon = "0" + m;
+            }
+            else
+            {
+                mon = Convert.ToString(m);
+            }
+            string res = $"{num}.{mon}.{g}";
             return res;
         }
     }
